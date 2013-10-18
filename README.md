@@ -7,7 +7,9 @@ You can use the tool on the server (sometimes preferable, just
 think about speed and network traffic) or from other computers.
 
 Basic usage:
-# ./warmup.rb www.someurl.tld
+$ ./warmup.rb www.someurl.tld
+
+# Basics
 
 It will
 * download http://www.someurl.tld/sitemap.xml 
@@ -18,7 +20,9 @@ I use the quick and simple Ruby thread pool from Kim Burgestrand (X11 License),
 http://burgestrand.se/articles/quick-and-simple-ruby-thread-pool.html
 I include it in the code so it's self contained.
 
-Requirements:
+# Requirements
+
+Requirements are:
 - Ruby
 - threads
 - net/http
