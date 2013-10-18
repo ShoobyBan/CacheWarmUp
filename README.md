@@ -7,7 +7,9 @@ You can use the tool on the server (sometimes preferable, just
 think about speed and network traffic) or from other computers.
 
 Basic usage:
+~~~ sh
 $ ./warmup.rb www.someurl.tld
+~~~
 
 # Basics
 
